@@ -17,7 +17,7 @@ jobs:
       - name: Build the project
         run: npm run build
       - name: Deploy to Surge
-        run: surge ./ https://mi-practica-itla.surge.sh
+        run: surge ./ https://joel-benitez-itla-electiva2-primerParcial.surge.sh
         env:
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
